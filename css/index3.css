@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    position: fixed;
+    top: 0px;
+
+}
+
+.container {
+    height: 70px;
+    width: 80%;
+    /* background-color: red; */
+    margin-left: 10%;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.logo {
+    height: 70px;
+    width: 15%;
+    /* background-color: yellow; */
+    font-size: 40px;
+    font-family: segoe UI;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    /*for text to the centre in vertical order*/
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.navigation {
+    font-size: 20px;
+    height: 70px;
+    width: 30%;
+    /* background-color: yellow; */
+    display: inline-block;
+    margin-left: 55%;
+}
+
+.nav {
+    list-style-type: none;
+    /* font-size: 0px; */
+    font-size: 0px;
+}
+
+.nav-link {
+    height: 70px;
+    width: 20%;
+    /* background-color: palegreen; */
+    display: inline-block;
+    font-size: 16px;
+    line-height: 70px;
+
+}
+
+
+/* ---------------------------- css for banner ---------------------*/
+.banner {
+    width: 100%;
+    height: 700px;
+    background-color: grey;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.banner_img {
+    width: 100%;
+    /* height: auto; */
+    margin-top: -200px;
+}
+
+
+/* -----------------------placesss ------------------------- */
+
+
+.places {
+    /* height: 500px; */
+    width: 100%;
+    background-color: #e5e2e2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+.place_container {
+    /* height: 600px; */
+    width: 80%;
+    /* background-color: red; */
+    margin-left: 10%;
+    font-size: 0px;
+    display: inline-block;
+    color: #051d4c;
+
+
+
+}
+
+.place {
+    /* height: 600px; */
+    width: 22%;
+    /* background-color: yellow; */
+    display: inline-block;
+    margin-left: 2.4%;
+    vertical-align: top;
+}
+
+.place_img {
+    height: 220px;
+    width: 100%;
+    /* background-color: blue; */
+    overflow: hidden;
+
+}
+
+.place_image {
+    width: 100%;
+}
+
+.place_title {
+    font-size: 25px;
+}
+
+.place_desc {
+    /* height: 300px; */
+    /* width: 100%; */
+    background-color: white;
+
+    font-size: 18px;
+    font-family: calibri;
+    padding: 20px;
+
+}
+
+.btn {
+    font-size: 18px;
+    padding: 17px 40px;
+    border-style: hidden;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: #6dad70;
+    cursor: pointer;
+}
+
+/*------------------------------ css for about -------------------------------- */
+
+
+.about {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: red; */
+}
+
+
+.about_container {
+    width: 80%;
+    /* height: 200px; */
+    /* background-color: grey; */
+    margin-left: 10%;
+    font-size: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about_image {
+    height: 500px;
+    width: 50%;
+    /* background-color: green; */
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.about_text {
+    width: 50%;
+
+    /* background-color: yellow; */
+    display: inline-block;
+    font-size: 20px;
+    font-family: segoe UI;
+    /* font-weight: bold; */
+    overflow: hidden;
+    /* overflow: scroll; */
+    color: #051d4c;
+
+
+
+}
+
+.about_image_img {
+    width: 100%;
+}
+
+.padd {
+    padding: 50px;
+    /* background-color: grey; */
+
+}
+
+.hightlight {
+    font-size: 30px;
+}
+
+/* --------------------css for booking ------------------------ */
+
+
+.booking {
+    width: 100%;
+    background-color: #222222;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.booking_title {
+    font-family: calibri;
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+}
+
+/* css for gallery  */
+.gallery {
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    display: inline-block;
+    font-size: 0px;
+    vertical-align: top;
+
+}
+
+.gallery_image {
+    width: 20%;
+    height: 250px;
+    background-color: yellow;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+
+}
+
+.gall_img {
+    /* width: 100%; */
+    /* width: 110%; for a bigger in size of image  */
+    width: 110%;
+}

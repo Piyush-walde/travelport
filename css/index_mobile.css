@@ -1,0 +1,129 @@
+/* --------------- css for mobile device ----------------------  */
+
+@media (min-width:320px) and (max-width:480px) {
+
+    /* ---------------- css for header ------------------ */
+
+    .header {
+        height: auto;
+        /* position: fixed; */
+    }
+
+    .header:hover .nav {
+        height: 250px;
+    }
+
+    .container {
+        height: auto;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .logo {
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .navigation {
+        height: auto;
+        width: 100%;
+        margin-left: 45%;
+    }
+
+    .nav-link {
+        height: 50px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .nav {
+        height: 0px;
+        overflow: hidden;
+        transition: .4s;
+    }
+
+    /* ---------------css for banner -----------------------  */
+
+    .banner {
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    .banner_img {
+        margin-top: 0px;
+
+    }
+  
+
+    .place {
+        width: 45%;
+        margin-bottom: 10px;
+        margin-left: 0%;
+        margin-right: 10px;
+    }
+
+    .place_img {
+        height: auto;
+    }
+
+    .place_title {
+        font-size: 20px;
+    }
+
+    .place_desc {
+        font-size: 14px;
+        height: 150px;
+        overflow: hidden;
+        padding: 5px;
+    }
+    .place_desc p{
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 8px 8px;
+        border-radius: 5px;
+    }
+
+
+
+    /* ---------------- css for about ----------------- */
+
+    .about_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .about_text {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: justify;
+        height: auto;
+    }
+
+    .hightlight {
+        font-size: 20px;
+    }
+
+    .padd {
+        padding: 0px;
+
+    }
+
+
+    /* ------------------------------- css for booking --------------------------- */
+    .booking_title {
+        font-size: 30px;
+    }
+
+    /* ----------------- css for gallery -------------------------------------------  */
+    .gallery_image {
+        width: 50%;
+        height: 100px;
+    }
+}
